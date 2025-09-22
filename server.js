@@ -52,7 +52,7 @@ const app = express();
 app.use(
   cors({
     origin: [
-      "http://localhost:3000", // CRA
+      "https://thebrilliantbihar.com", // CRA
       "http://localhost:5173", // Vite
       "http://127.0.0.1:5173",
       "http://localhost:3001",
